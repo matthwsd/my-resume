@@ -12,12 +12,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Use Node 12.x
-        uses: actions/setup-node@v1
+      - name: Use Node 14.x
+        uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: '14.x'
       - name: Install dependencies
-        run: npm i    
+        run: |
+          npm i
+          npm run build    
         uses: actions/upload-artifact@v1
         with:
           name: deploy_dist
@@ -27,7 +29,7 @@ jobs:
     needs: build
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Download build
         uses: actions/download-artifact@v1
         with:
@@ -37,4 +39,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: deploy_dist/angular-demo
+          FOLDER: deploy_dist/my-resumee
