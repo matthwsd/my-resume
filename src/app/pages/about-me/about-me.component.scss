@@ -1,0 +1,7 @@
+@import '/src/assets/base.scss';
+
+.about-me {
+  &__container {
+    @extend %page;
+  }
+}

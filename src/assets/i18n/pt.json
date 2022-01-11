@@ -1,13 +1,16 @@
 {
   "NAV": {
     "TITLE": "Currículo de Mattheus"
-  },
+  },  
   "SUMMARY": {
     "HI": "_olá.",
     "PRESENTATION": "Me chamo Mattheus",
     "SUMMARIZE": "Eu sou um desenvolvedor full-stack brasileiro com 5 anos de experiência em múltiplos stacks de tecnologia",
     "TITLE": "_sumário"
   },
+  "ABOUT-ME":{
+    "TITLE": "_sobre-mim"
+  },  
   "EXPERIENCES": {
     "TITLE": "_experiências",
     "EXPERIENCES": [{

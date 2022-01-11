@@ -2,10 +2,13 @@
   "NAV": {
     "TITLE": "Matthew's resumee"
   },
+  "ABOUT-ME":{
+    "TITLE": "_about-me"
+  },  
   "SUMMARY": {
     "HI": "_hi.",
     "PRESENTATION": "I'm Mattheus",
-    "SUMMARIZE": "You can call me Matthew, it's basically the same writing and the pronunciate you be easier for english speakers;\n I'm a full-stack developer from Brazil with 5 years of experience using multiple techinologic stacks",
+    "SUMMARIZE": "You can call me Matthew, it's basically the same writing and the pronunciate will be easier for english speakers;\n I'm a full-stack developer from Brazil with 5 years of experience using multiple techinologic stacks",
     "TITLE": "_summary"
   },
   "EXPERIENCES": {
