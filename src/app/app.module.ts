@@ -13,6 +13,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HighlightPipe } from './pipes/highlight.pipe';
 import { BreakPipe } from './pipes/break.pipe';
 import { LinksComponent } from './pages/links/links.component';
+import { BarComponent } from './components/bar/bar.component';
 
 const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +28,8 @@ const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
     ExperienceComponent,
     HighlightPipe,
     BreakPipe,
-    LinksComponent
+    LinksComponent,
+    BarComponent
   ],
   imports: [
     BrowserModule,

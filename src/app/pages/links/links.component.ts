@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { TranslateService } from '@ngx-translate/core';
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-links',
   templateUrl: './links.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LinksComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
   }
@@ -18,6 +19,17 @@ export class LinksComponent implements OnInit {
 
   copyEmail(): void {
     navigator.clipboard.writeText("mattheusan@gmail.com");
+    this.translate.get("LINKS.EMAIL_CLIP").subscribe((res) => {
+      Swal.mixin({
+        toast: true,
+        position: "top",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: false,
+        background: "#242424",
+        color:"#ffffff",
+      }).fire({ icon: "success", title: res })
+    })
   }
 
 }
