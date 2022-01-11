@@ -1,0 +1,13 @@
+<div class="top-navigation__container">
+  <div class="top-navigation__language" (click)="changeLang('pt')"
+    [class.top-navigation__language--current]="CurrentLang == 'pt'">
+    <img src="/assets/images/brasil.png">
+  </div>
+  <div class="top-navigation__language" (click)="changeLang('en')"
+    [class.top-navigation__language--current]="CurrentLang == 'en'">
+    <img src="/assets/images/reino-unido.png">
+  </div>
+  <div class="top-navigation__title">
+    {{("NAV.TITLE" | translate:{PAGE: CurrentPage})}}
+  </div>
+</div>

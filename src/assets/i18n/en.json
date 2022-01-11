@@ -1,0 +1,43 @@
+{
+  "NAV": {
+    "TITLE": "Matthew's resumee"
+  },
+  "SUMMARY": {
+    "HI": "_hi.",
+    "PRESENTATION": "I'm Mattheus",
+    "SUMMARIZE": "You can call me Matthew, it's basically the same writing and the pronunciate you be easier for english speakers;\n I'm a full-stack developer from Brazil with 5 years of experience using multiple techinologic stacks",
+    "TITLE": "_summary"
+  },
+  "EXPERIENCES": {
+    "TITLE": "_experiences",
+    "EXPERIENCES": [{
+        "Title": "Itaú-Unibanco",
+        "Date": "August, 2021 - Current",
+        "Text": "BFF development with JAVA & Spring Boot applying Clean Code principles;Frontend development with Angular 9+;Log collect and dashboard creation using SPLUNK;Agile methods using Scrum & Kanban;"
+      },
+      {
+        "Title": "Rabbot",
+        "Date": "February, 2021 - August, 2021",
+        "Text": "API development using C# & .NET Core, SQL Server, applying S.O.L.I.D and Clean Code principles; Frontend with Angular 9+ & SCSS; Architecture focusing in Events;"
+      },
+      {
+        "Title": "Fëng Brasil",
+        "Date": "March, 2020 - February, 2021",
+        "Text": " Frontend development with Angular 7 and migration to Angular 11+; API development using NodeJS & AdonisJS, migration from PHP to NodeJS applying S.O.L.I.D and EsLint; Database with SQL Server; Caching with Redis; White-label creation focusing in start new project faster using Angular ClI + NodeJS & AdonisJS CLI [Written own CLI]; Agile methods using Scrum & Kanban;"
+      },
+      {
+        "Title": "CR2 Sistemas",
+        "Date": "November, 2017 - March, 2020",
+        "Text": "Frontend development with AngularJS & CSS, Angular 2+ & SCSS; Backend development with C# [Entityframework, JWT, Swagger, OAuth], PHP [Laravel] and Python [SMS queue server]; Deploying API with Azure;"
+      },
+      {
+        "Title": "A2B Group",
+        "Date": "June, 2017 - November, 2017",
+        "Text": "Frontend development with AngularJS and VueJS; Backend development with C# [Entityframework, JWT, Swagger, OAuth, Roles] applying S.O.L.I.D principles; Deploying with AWS;"
+      }
+    ]
+  },
+  "LINKS": {
+    "TITLE": "_links & contact"
+  }
+}

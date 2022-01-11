@@ -1,0 +1,42 @@
+@import '/src/assets/base.scss';
+
+
+.experience {
+  &__container {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  &__title {
+    display: block;
+    white-space: pre;
+    color: $purple;
+    font-size: 26px;
+    font-family: fira-bold;
+    margin-bottom: 8px;
+  }
+
+  &__date {
+    display: block;
+    white-space: pre;
+    color: $gray;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fira;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    display: block;
+    width: 100%;
+    height: auto;
+    white-space: pre-line;
+    word-wrap: break-word;
+    color: $white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: fira;
+  }
+}

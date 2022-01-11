@@ -1,0 +1,43 @@
+{
+  "NAV": {
+    "TITLE": "Currículo de Mattheus"
+  },
+  "SUMMARY": {
+    "HI": "_olá.",
+    "PRESENTATION": "Me chamo Mattheus",
+    "SUMMARIZE": "Eu sou um desenvolvedor full-stack brasileiro com 5 anos de experiência em múltiplos stacks de tecnologia",
+    "TITLE": "_sumário"
+  },
+  "EXPERIENCES": {
+    "TITLE": "_experiências",
+    "EXPERIENCES": [{
+        "Title": "Itaú-Unibanco",
+        "Date": "Agosto, 2021 - Presente",
+        "Text": "Desenvolvimento de BFF com Java & Spring Boot, aplicando os princípios do Clean Code;Desenvolvimento de frontend com Angular 9+ & SCSS;Coleta de logs e criação de dashboards usando Splunk;Método ágil com Scrum & Kanban;"
+      },
+      {
+        "Title": "Rabbot",
+        "Date": "Fevereiro, 2021 - Agosto, 2021",
+        "Text": "Desenvolvimento de API com C# & .NET Core e SQL Server aplicando os princípios do SOLID e do Clean Code;Frontend com Angular 9+ & SCSS;Arquitetura focando em Eventos;"
+      },
+      {
+        "Title": "Fëng Brasil",
+        "Date": "Março, 2020 - Fevereiro, 2021",
+        "Text": "Desenvolvimento de Frontend com Angular 7 e migração para o Angular 11+;Desenvolvimento de API usando NodeJS & AdonisJS e migração do PHP para o NodeJS, aplicando SOLID e EsLint;Banco de dados com SQLServer;Cacheamento com ReddisDB;Criação de White-label focando em começar novos projetos rapidamente usando o CLI do Angular + NodeJS & AdonisJS [Escrevi um CLI próprio];Métodos ágeis com Scrum & Kanban;"
+      },
+      {
+        "Title": "CR2 Sistemas",
+        "Date": "Novembro, 2017 - Março, 2020",
+        "Text": "Desenvolvimento de Frontend com AngularJS & CSS;Desenvolvimento de aplicação desktop com Electron;Desenvolvimento de API com C# [EntityFramework, JWT, Swagger, OAuth], PHP [Laravel] e Python [Servidor de fila para envio de SMS];Deploy de API com Azure;Bug-fix em um software escrito em Delphi;"
+      },
+      {
+        "Title": "A2B Group",
+        "Date": "Junho, 2017 - Novembro, 2017",
+        "Text": "Desenvolvimento de Frontend com AngularJS e VueJS;Desenvolvimento de API com C# [Entityframework, JWT, OAuth, Swagger] aplicando SOLID;Deploy com AWS;"
+      }
+    ]
+  },
+  "LINKS": {
+    "TITLE": "_links & contato"
+  }
+}

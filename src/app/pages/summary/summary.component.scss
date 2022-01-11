@@ -1,0 +1,7 @@
+@import '/src/assets/base.scss';
+
+.summary {
+  &__container {
+    @extend %page;
+  }
+}

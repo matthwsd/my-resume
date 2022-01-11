@@ -1,0 +1,25 @@
+<div class="links__container">
+  <div class="base__title base__margin-bottom--20">
+    {{'LINKS.TITLE' | translate}}
+  </div>
+
+  <div class="links__link" (click)="visit('https://www.linkedin.com/in/mattheus-alberto/')">
+    <img src="assets/images/linkedin.png">
+    <span>linkedIn<b class="base-font--highlight">_</b></span>
+  </div>
+
+  <div class="links__link" (click)="visit('https://github.com/matthwsd')">
+    <img src="assets/images/github.png">
+    <span>github<b class="base-font--highlight">_</b></span>
+  </div>
+
+  <div class="links__link" (click)="visit('https://api.whatsapp.com/send/?phone=%2B5521983080946&text&app_absent=0')">
+    <img src="assets/images/whatsapp.png">
+    <span>whatsapp<b class="base-font--highlight">_</b></span>
+  </div>
+
+  <div class="links__link" (click)="copyEmail()">
+    <img src="assets/images/email.png">
+    <span #EMAIL>email<b class="base-font--highlight">_</b></span>
+  </div>
+</div>

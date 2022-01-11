@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/base.scss';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fira, sans-serif;
+  user-select: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  @extend %base_dark;
+}

@@ -1,0 +1,17 @@
+<div class="experiences__container">
+  <div class="base__title base__margin-bottom--20">
+    {{'EXPERIENCES.TITLE' | translate}}
+  </div>
+
+  <ng-container *ngFor="let experience of Experiences | async">
+    <div class="base__margin-bottom--16">
+      <app-experience>
+        <div title>{{experience.Title}}</div>
+        <div date>{{experience.Date}}</div>
+        <div text>
+          {{experience.Text | break}}
+        </div>
+      </app-experience>
+    </div>
+  </ng-container>
+</div>
