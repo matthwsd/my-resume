@@ -14,6 +14,8 @@ import { HighlightPipe } from './pipes/highlight.pipe';
 import { BreakPipe } from './pipes/break.pipe';
 import { LinksComponent } from './pages/links/links.component';
 import { BarComponent } from './components/bar/bar.component';
+import { SkillsComponent } from './pages/skills/skills.component';
+import { SkillComponent } from './components/skill/skill.component';
 
 const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -29,7 +31,9 @@ const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
     HighlightPipe,
     BreakPipe,
     LinksComponent,
-    BarComponent
+    BarComponent,
+    SkillsComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

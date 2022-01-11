@@ -1,0 +1,20 @@
+@import '/src/assets/base.scss';
+
+.skills {
+  &__container {
+    @extend %page;
+  }
+
+  &__divider {
+    display: block;
+    text-align: left;
+    color: $white;
+    font-family: fira-bold;
+    margin-bottom: 12px;
+    margin-top: 26px;
+
+    &::first-letter {
+      color: $purple;
+    }
+  }
+}

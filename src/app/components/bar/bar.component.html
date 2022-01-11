@@ -1,1 +1,5 @@
-<p>bar works!</p>
+<div class="bar__container">
+  <div class="bar__placeholder" [style.background]="backgroundColor">
+    <div class="bar__bar" [style.background]="color" [style.width.%]="value / maxValue * 100"></div>
+  </div>
+</div>

@@ -61,6 +61,11 @@ $base_top-navigation--height: 84px;
     display: block;
     text-align: right;
     font-family: fira-bold;
+
+    &::first-letter {
+      color: $purple;
+    }
+
     @extend .base-font--title;
   }
 
