@@ -20,6 +20,7 @@ jobs:
         run: |
           npm i
           npm run build    
+      - name: Upload
         uses: actions/upload-artifact@v1
         with:
           name: deploy_dist
@@ -37,6 +38,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
           FOLDER: deploy_dist/my-resumee
