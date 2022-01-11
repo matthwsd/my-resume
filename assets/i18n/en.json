@@ -40,5 +40,11 @@
   "LINKS": {
     "TITLE": "_links & contact",
     "EMAIL_CLIP": "the email was added to your clipboard"
+  },
+  "SKILLS": {
+    "TITLE": "_skills",
+    "LANGUAGES": "_languages",
+    "FRAMEWORKS": "_frameworks",
+    "MISC": "_misc"
   }
 }

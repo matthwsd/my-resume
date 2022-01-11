@@ -40,5 +40,11 @@
   "LINKS": {
     "TITLE": "_links & contato",
     "EMAIL_CLIP": "o email foi copiado"
+  },
+  "SKILLS": {
+    "TITLE": "_skills",
+    "LANGUAGES": "_linguagens",
+    "FRAMEWORKS": "_frameworks",
+    "MISC": "_etc"
   }
 }
