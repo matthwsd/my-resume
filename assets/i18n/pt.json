@@ -1,16 +1,17 @@
 {
   "NAV": {
     "TITLE": "Currículo de Mattheus"
-  },  
+  },
   "SUMMARY": {
     "HI": "_olá.",
     "PRESENTATION": "Me chamo Mattheus",
     "SUMMARIZE": "Eu sou um desenvolvedor full-stack brasileiro com 5 anos de experiência em múltiplos stacks de tecnologia",
     "TITLE": "_sumário"
   },
-  "ABOUT-ME":{
-    "TITLE": "_sobre-mim"
-  },  
+  "ABOUT-ME": {
+    "TITLE": "_sobre-mim",
+    "TEXT": "Deixa eu me apresentar novamente. Meu nome é Mattheus, sou brasileiro, carioca da gema. Tenho 23 anos. Atualmente estou me graduando em Psicologia, e com certeza você está se perguntando 'o que esse maluco ta fazendo da vida?', não se preocupe, todo mundo me pergunta porque sou programador e estudante de psicologia. Eu sonho com o dia, com certeza no futuro, em que eu serei o responsável por gerir outros desenvolvedores e pessoas de tecnologia, daí entrará a psicologia para me ajudar com essa tarefa; Eu sou simples, gosto de tocar, ler alguma coisa - e tenho tentando escrever algo também, jogo videogames online com os amigos, caminhada à tarde e pilotar minha motinha e fazer uns randãdãdã por aí. Eu gosto das coisas simples da vida;Tenho perseguido esse sonho de ir trabalhar no exterior e eu sei que algum dia irá acontecer;"
+  },
   "EXPERIENCES": {
     "TITLE": "_experiências",
     "EXPERIENCES": [{
@@ -42,7 +43,8 @@
   },
   "LINKS": {
     "TITLE": "_links & contato",
-    "EMAIL_CLIP": "o email foi copiado"
+    "EMAIL_CLIP": "o meu email foi copiado",
+    "DISCORD_CLIP": "minha tag do discord foi copiada. vem no x1 =)"
   },
   "SKILLS": {
     "TITLE": "_skills",
