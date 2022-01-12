@@ -27,9 +27,25 @@ export class LinksComponent implements OnInit {
         timer: 3000,
         timerProgressBar: false,
         background: "#242424",
-        color:"#ffffff",
+        color: "#ffffff",
       }).fire({ icon: "success", title: res })
     })
   }
+
+  copyDiscord(): void {
+    navigator.clipboard.writeText("Matthw#4457");
+    this.translate.get("LINKS.DISCORD_CLIP").subscribe((res) => {
+      Swal.mixin({
+        toast: true,
+        position: "top",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: false,
+        background: "#242424",
+        color: "#ffffff",
+      }).fire({ icon: "success", title: res })
+    })
+  }
+
 
 }

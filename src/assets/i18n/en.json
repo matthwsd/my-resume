@@ -2,9 +2,10 @@
   "NAV": {
     "TITLE": "Matthew's resumee"
   },
-  "ABOUT-ME":{
-    "TITLE": "_about-me"
-  },  
+  "ABOUT-ME": {
+    "TITLE": "_about-me",
+    "TEXT": "Hey, let me introduce again. My name is Mattheus, I'm from Brazil, Rio de Janeiro - RJ. I'm 23 yr old. Nowadays I'm graduting in Psychology, and you're thinking right now 'what the hell?', don't afraid, everybody asks me why. I'm dreaming about the day, of course in the future, that i'll be responsible for manage others developers and tech people, and the psychology will help me to do this;I'm a simple guy that likes to play music, read something - actually i'm trying to write as well, play video-games online with friends, walk by the afternoon and ride my motorcycle. I like the simple things;I have been pursuing my dream to go work abroad and I know that I will someday;"
+  },
   "SUMMARY": {
     "HI": "_hi.",
     "PRESENTATION": "I'm Mattheus",
@@ -42,7 +43,8 @@
   },
   "LINKS": {
     "TITLE": "_links & contact",
-    "EMAIL_CLIP": "the email was added to your clipboard"
+    "EMAIL_CLIP": "my email was added to your clipboard",
+    "DISCORD_CLIP": "my discord tag was added to your clipboard. let's play =)"
   },
   "SKILLS": {
     "TITLE": "_skills",
