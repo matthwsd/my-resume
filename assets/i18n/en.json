@@ -1,10 +1,10 @@
 {
   "NAV": {
-    "TITLE": "Matthew's resumee"
+    "TITLE": "Matthew's resume"
   },
   "ABOUT-ME": {
     "TITLE": "_about-me",
-    "TEXT": "Hey, let me introduce again. My name is Mattheus, I'm from Brazil, Rio de Janeiro - RJ. I'm 23 yr old. Nowadays I'm graduting in Psychology, and you're thinking right now 'what the hell?', don't afraid, everybody asks me why. I'm dreaming about the day, of course in the future, that i'll be responsible for manage others developers and tech people, and the psychology will help me to do this;I'm a simple guy that likes to play music, read something - actually i'm trying to write as well, play video-games online with friends, walk by the afternoon and ride my motorcycle. I like the simple things;I have been pursuing my dream to go work abroad and I know that I will someday;"
+    "TEXT": "Hey, let me introduce myself again. My name is Mattheus, I'm from Brazil, Rio de Janeiro - RJ. I'm 23 yrs old. Nowadays I'm graduting in Psychology, and you're thinking right now 'what the hell?', don't be afraid, everybody asks me why. I'm dreaming about the day, of course in the future, that I'll be responsible for managing others developers and tech people, and the psychology will help me to do this;I'm a simple guy that likes to play music, read something - actually I'm trying to write as well, play video-games online with friends, walk in the afternoon and ride my motorcycle. I like the simple things;I have been pursuing my dream to go work abroad and I know that I will someday;"
   },
   "SUMMARY": {
     "HI": "_hi.",
@@ -17,7 +17,7 @@
     "EXPERIENCES": [{
         "Title": "Itaú-Unibanco",
         "Date": "August, 2021 - Current",
-        "Text": "BFF development with JAVA & Spring Boot applying Clean Code principles;Frontend development with Angular 9+;Log collect and dashboard creation using SPLUNK;Agile methods using Scrum & Kanban;"
+        "Text": "BFF development with JAVA & Spring Boot applying Clean Code principles;Frontend development with Angular 9+;Log collection and dashboard creation using SPLUNK;Agile methods using Scrum & Kanban;"
       },
       {
         "Title": "Rabbot",
@@ -27,7 +27,7 @@
       {
         "Title": "Fëng Brasil",
         "Date": "March, 2020 - February, 2021",
-        "Text": " Frontend development with Angular 7 and migration to Angular 11+; API development using NodeJS & AdonisJS, migration from PHP to NodeJS applying S.O.L.I.D and EsLint; Database with SQL Server; Caching with Redis; White-label creation focusing in start new project faster using Angular ClI + NodeJS & AdonisJS CLI [Written own CLI]; Agile methods using Scrum & Kanban;"
+        "Text": "Frontend development with Angular 7 and migration to Angular 11+; API development using NodeJS & AdonisJS, migration from PHP to NodeJS applying S.O.L.I.D and EsLint; Database with SQL Server; Caching with Redis; White-label creation focusing in start new project faster using Angular ClI + NodeJS & AdonisJS CLI [Written own CLI]; Agile methods using Scrum & Kanban;"
       },
       {
         "Title": "CR2 Sistemas",
