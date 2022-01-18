@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:github": "ng build --prod --baseHref='https://matthwsd.github.io/my-resumee/'"
+    "build:github": "ng build --prod --baseHref='https://matthwsd.github.io/my-resume/'"
   },
   "private": true,
   "dependencies": {

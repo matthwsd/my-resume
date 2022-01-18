@@ -1,4 +1,4 @@
-name: deploy my resumee
+name: deploy my resume gh page
 
 on:
   push:
@@ -40,4 +40,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
-          FOLDER: deploy_dist/my-resumee
+          FOLDER: deploy_dist/my-resume
