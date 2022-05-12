@@ -1,0 +1,80 @@
+@import './fonts/fonts';
+@import './colors';
+
+$base_top-navigation--height: 84px;
+
+%base_padding {
+  padding: 8px 16px;
+}
+
+%base_dark {
+  background: $black;
+  color: $white;
+}
+
+%container {
+  @extend %base_padding;
+  width: 100%;
+  height: 100%;
+}
+
+%page {
+  padding-top: $base_top-navigation--height + 14px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 8px;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.base {
+
+  &-font--title {
+    font-size: 38px;
+  }
+
+  &-font--display {
+    font-size: 70px;
+    font-family: fira-bold, 'sans-serif';
+    text-align: end;
+    line-height: 87px;
+  }
+
+  &-font--highlight {
+    color: $purple;
+  }
+
+  &-font--normal {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  &__text {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    @extend .base-font--normal;
+  }
+
+  &__title {
+    display: block;
+    text-align: right;
+    font-family: fira-bold;
+
+    &::first-letter {
+      color: $purple;
+    }
+
+    @extend .base-font--title;
+  }
+
+  @for $i from 2 through 20 {
+    @each $mod in ("top", "right", "left", "bottom") {
+      &__margin-#{$mod}--#{$i} {
+        margin-#{$mod}: #{$i}px;
+      }
+    }
+  }
+
+}
