@@ -32,11 +32,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download build
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v3
         with:
           name: deploy_dist
+      - name: Check downloaded files
+        run: ls -R
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
