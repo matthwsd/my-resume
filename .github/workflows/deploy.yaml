@@ -18,10 +18,13 @@ jobs:
         with:
           node-version: '14.x'
 
-      - name: Install dependencies
+      - name: Building app
         run: |
           npm i
           npm run build:github    
+
+      - name: List builded files
+        run: ls -R
 
       - name: Upload
         uses: actions/upload-artifact@v3
