@@ -52,4 +52,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
-          FOLDER: my-resume/build
+          FOLDER: build
