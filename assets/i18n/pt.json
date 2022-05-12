@@ -5,18 +5,29 @@
   "SUMMARY": {
     "HI": "_olá.",
     "PRESENTATION": "Me chamo Mattheus",
-    "SUMMARIZE": "Eu sou um desenvolvedor full-stack brasileiro com 5 anos de experiência em múltiplos stacks de tecnologia",
+    "SUMMARIZE": "Eu sou um desenvolvedor full-stack brasileiro com 5 anos de experiência em múltiplos stacks de tecnologia; Estou adquirindo algumas experiências internacionais para poder continuar meu processo de crescimento nessa área;",
     "TITLE": "_sumário"
   },
   "ABOUT-ME": {
     "TITLE": "_sobre-mim",
-    "TEXT": "Deixa eu me apresentar novamente. Meu nome é Mattheus, sou brasileiro, carioca da gema. Tenho 23 anos. Atualmente estou me graduando em Psicologia, e com certeza você está se perguntando 'o que esse maluco ta fazendo da vida?', não se preocupe, todo mundo me pergunta porque sou programador e estudante de psicologia. Eu sonho com o dia, com certeza no futuro, em que eu serei o responsável por gerir outros desenvolvedores e pessoas de tecnologia, daí entrará a psicologia para me ajudar com essa tarefa; Eu sou simples, gosto de tocar, ler alguma coisa - e tenho tentando escrever algo também, jogo videogames online com os amigos, caminhada à tarde e pilotar minha motinha e fazer uns randãdãdã por aí. Eu gosto das coisas simples da vida;Tenho perseguido esse sonho de ir trabalhar no exterior e eu sei que algum dia irá acontecer;"
+    "TEXT": "Deixa eu me apresentar novamente. Meu nome é Mattheus, sou brasileiro, carioca da gema. Tenho 23 anos. Atualmente estou me graduando em Psicologia, e com certeza você está se perguntando 'o que esse maluco ta fazendo da vida?', não se preocupe, todo mundo me pergunta porque sou programador e estudante de psicologia. Eu sonho com o dia, com certeza no futuro, em que eu serei o responsável por gerir outros desenvolvedores e pessoas de tecnologia, daí entrará a psicologia para me ajudar com essa tarefa; Eu sou simples, gosto de tocar, ler alguma coisa - e tenho tentando escrever algo também, jogo videogames online com os amigos, caminhada à tarde e pilotar minha motinha e fazer uns rolezinhos por aí. Eu gosto das coisas simples da vida; Consegui meu sonho de ir morar no exterior, sendo Portugal meu primeiro destino =);"
   },
   "EXPERIENCES": {
     "TITLE": "_experiências",
-    "EXPERIENCES": [{
+    "EXPERIENCES": [
+      {
+        "Title": "Aubay (PT)",
+        "Date": "Maio, 2022 - Presente",
+        "Text": "(entrará umas experiências incríveis aqui)"
+      },
+      {
+        "Title": "Invillia",
+        "Date": "Março, 2022 - Maio, 2022",
+        "Text": "Desenvolvimento front-end e manutenção de projeto em Razor MVC & C# & .NET Frameworkl; Método ágil com SCRUM;"
+      },
+      {
         "Title": "Itaú-Unibanco",
-        "Date": "Agosto, 2021 - Presente",
+        "Date": "Agosto, 2021 - Março, 2022",
         "Text": "Desenvolvimento de BFF com Java & Spring Boot, aplicando os princípios do Clean Code;Desenvolvimento de frontend com Angular 9+ & SCSS;Coleta de logs e criação de dashboards usando Splunk;Método ágil com Scrum & Kanban;"
       },
       {
