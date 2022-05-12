@@ -17,6 +17,7 @@ import { BarComponent } from './components/bar/bar.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { UnderComponent } from './components/under/under.component';
 
 const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -35,7 +36,8 @@ const TRANSLATE_FACTORY = (http: HttpClient): TranslateHttpLoader => {
     BarComponent,
     SkillsComponent,
     SkillComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    UnderComponent
   ],
   imports: [
     BrowserModule,
