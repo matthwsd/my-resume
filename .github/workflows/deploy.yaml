@@ -43,6 +43,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build
+          path: my-resume/build
 
       - name: Check downloaded files
         run: ls -R
@@ -52,4 +53,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: my-resume/build
